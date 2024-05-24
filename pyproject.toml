@@ -1,0 +1,12 @@
+[project]
+name = "water_shuffle"
+version = "0.0.1"
+dependencies = [
+    "mdtraj",
+    "scipy",
+    "numpy",
+]
+
+[project.scripts]
+water-shuffle = "water_shuffle:run"
+
