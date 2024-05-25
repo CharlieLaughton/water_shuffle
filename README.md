@@ -1,12 +1,12 @@
 # water_shuffle
 Permute waters in an MD trajectory to minimise diffusion
 
-##Motivation
+## Motivation
 For the analysis of hydration patters round solute molecules, it is sometimes
 useful to permute the indices of the water molecules in each frame of an MD
 trajectory so that each then appears to remain within a restricted volume.
 
-##Method
+## Method
 The Python code here implements this using the linear sum assigment method in a iterative manner:
 
 1. The coordinates of each water oxygen atom in each trajectory frame are selected.
@@ -17,14 +17,14 @@ permutation vector that is then used to reorder the water oxygen atoms i(and ass
 7. Until a set number of iterations is exceeded, the process is repeated from step 3.
 8. The permuted trajectory is saved to a new file.
 
-##Installation
+## Installation
 
-###Requirements
+### Requirements
 Python (version 3.8 or later)
 git
 pip
 
-###Procedure
+### Procedure
 In a suitable directory:
 
 ```
@@ -37,7 +37,7 @@ You should now find the command `water-shffle` in your path:
 which water-shuffle`
 ```
 
-###Testing
+### Testing
 The `/test` directory contains a small trajectory and topology file for testing.
 
 To run:
