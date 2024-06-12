@@ -8,5 +8,5 @@ dependencies = [
 ]
 
 [project.scripts]
-water-shuffle = "water_shuffle:run"
+water-shuffle = "water_shuffle:cli"
 
