@@ -46,7 +46,7 @@ To run:
 ```
 water-shuffle --trajin test.nc --topology test.prmtop --water_name HOH --n_cycles 5 --trajout permuted.nc
 ```
-The test job should take less than 30 seconds to run. The software outputs the "cost" - the mean distance of each water in each permuted snapshot from its mean position - each cycle. Tghis number should reduce and converge. If you compare the motion of a single water molecule (e.g. residue 4) in the original and permuted versions of the trajectory file (e.g. using VMD or similar) the removal of diffusive motion will be apparent.
+The test job should take less than 30 seconds to run. The software outputs the "cost" - the mean distance of each water in each permuted snapshot from its mean position - each cycle. This number should reduce and converge. If you compare the motion of a single water molecule (e.g. residue 4) in the original and permuted versions of the trajectory file (e.g. using VMD or similar) the removal of diffusive motion will be apparent.
 
 ### Usage
 Required inputs are a trajectory and matching topology file in any of the formats supported by [MDTraj](http://mdtraj.org), plus the residue name of the water molecules (typically "HOH" or "WAT") and the number of cycles of iterative water permutation to be attempted (typically the "cost" will converge within 5-10 cycles, but this is very dependent on the case). The output is a trejectory file in an MDTraj-supported format, as implied by the extension to the file name.
