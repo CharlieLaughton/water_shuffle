@@ -7,7 +7,7 @@ useful to permute the indices of the water molecules in each frame of an MD
 trajectory so that each then appears to remain within a restricted volume.
 
 ## Method
-The Python code here implements this using the linear sum assigment method in a iterative manner:
+The Python code here implements this using the [linear sum assigment method](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html) in a iterative manner:
 
 1. The coordinates of each water oxygen atom in each trajectory frame are selected.
 2. The coordinates in the first frame are copied to form the initial guess for the mean coordinates.
