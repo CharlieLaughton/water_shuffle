@@ -28,11 +28,11 @@ pip
 In a suitable directory:
 
 ```
-git clone ...
-cd ....
+git clone https://github.com/CharlieLaughton/water_shuffle.git
+cd water_shuffle
 pip install .
 ```
-You should now find the command `water-shffle` in your path:
+You should now find the command `water-shuffle` in your path:
 ```
 which water-shuffle`
 ```
