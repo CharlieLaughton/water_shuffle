@@ -32,7 +32,7 @@ git clone https://github.com/CharlieLaughton/water_shuffle.git
 cd water_shuffle
 pip install .
 ```
-You should now find the command `water-shuffle` in your path:
+Installation will typically take less than one minute. You should then find the command `water-shuffle` in your path:
 ```
 which water-shuffle`
 ```
@@ -42,6 +42,6 @@ The `/test` directory contains a small trajectory and topology file for testing 
 
 To run:
 ```
-water-shuffle --trajin test.nc --topology test.pdb --water_name HOH --n_cycles 5 --trajout permuted.nc
+water-shuffle --trajin test.nc --topology test.prmtop --water_name HOH --n_cycles 5 --trajout permuted.nc
 ```
-If you compare the motion of a single water molecule (e.g. residue 4) in the original and permuted versions of the trajectory file (e.g. using VMD or similar) the removal of diffusive motion will be apparent.
+The test job should take less than 30 seconds to run. If you compare the motion of a single water molecule (e.g. residue 4) in the original and permuted versions of the trajectory file (e.g. using VMD or similar) the removal of diffusive motion will be apparent.
