@@ -20,7 +20,7 @@ permutation vector that is then used to reorder the water oxygen atoms i(and ass
 ## Installation
 
 ### Requirements
-* Python (version 3.8 or later)
+* Python (version 3.9 or later)
 * git
 * pip
 
