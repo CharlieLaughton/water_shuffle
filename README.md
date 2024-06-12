@@ -38,10 +38,10 @@ which water-shuffle`
 ```
 
 ### Testing
-The `/test` directory contains a small trajectory and topology file for testing.
+The `/test` directory contains a small trajectory and topology file for testing (alanine dipeptide in a box of water).
 
 To run:
 ```
 water-shuffle --trajin test.nc --topology test.pdb --water_name HOH --n_cycles 5 --trajout permuted.nc
 ```
-
+If you compare the motion of a single water molecule (e.g. residue 4) in the original and permuted versions of the trajectory file (e.g. using VMD or similar) the removal of diffusive motion will be apparent.
