@@ -20,9 +20,11 @@ permutation vector that is then used to reorder the water oxygen atoms i(and ass
 ## Installation
 
 ### Requirements
-Python (version 3.8 or later)
-git
-pip
+* Python (version 3.8 or later)
+* git
+* pip
+
+The software has been tested on Linux (Ubuntu) and Mac (Ventura) platforms, with Python versions 3.9, 3.10 and 3.11.
 
 ### Procedure
 In a suitable directory:
