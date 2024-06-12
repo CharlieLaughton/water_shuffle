@@ -24,7 +24,7 @@ permutation vector that is then used to reorder the water oxygen atoms i(and ass
 * git
 * pip
 
-The software has been tested on Linux (Ubuntu) and Mac (Ventura) platforms, with Python versions 3.9, 3.10 and 3.11.
+The software has been tested on Linux (Ubuntu 22.04) and Mac (Ventura) platforms, with Python versions 3.9, 3.10 and 3.11.
 
 ### Procedure
 In a suitable directory:
